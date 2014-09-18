@@ -101,7 +101,7 @@
     if(_isLoading)return;
     _isDragging = NO;
     if(scrollView.contentOffset.y<-45){
-        UIAlertView *_alertView = [[UIAlertView alloc] initWithTitle:@"" message:@"正在刷新..." delegate:self cancelButtonTitle:nil otherButtonTitles:nil, nil];
+        UIAlertView *_alertView = [[UIAlertView alloc] initWithTitle:@"" message:@"Refreshing..." delegate:self cancelButtonTitle:nil otherButtonTitles:nil, nil];
         [_alertView show];
         TopModel *newTop = [_webService loadJSONData:0];
         _topModel = newTop;

@@ -118,6 +118,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0413485F19CAEF7A00E69142 /* DataConnection */ = {
+			isa = PBXGroup;
+			children = (
+				04DBFF7019C993CC00A6CEF0 /* TWWebService.h */,
+				04DBFF7119C993CC00A6CEF0 /* TWWebService.m */,
+			);
+			name = DataConnection;
+			sourceTree = "<group>";
+		};
 		04DBFF1219C9826100A6CEF0 = {
 			isa = PBXGroup;
 			children = (
@@ -154,14 +163,13 @@
 		04DBFF2619C9826100A6CEF0 /* TestForTW */ = {
 			isa = PBXGroup;
 			children = (
+				0413485F19CAEF7A00E69142 /* DataConnection */,
 				04DBFF2F19C9826100A6CEF0 /* TWAppDelegate.h */,
 				04DBFF3019C9826100A6CEF0 /* TWAppDelegate.m */,
 				04DBFF3519C9826100A6CEF0 /* Images.xcassets */,
 				04DBFF3219C9826100A6CEF0 /* TestForTW.xcdatamodeld */,
 				04DBFF6319C984ED00A6CEF0 /* TWFirstTableViewController.h */,
 				04DBFF6419C984ED00A6CEF0 /* TWFirstTableViewController.m */,
-				04DBFF7019C993CC00A6CEF0 /* TWWebService.h */,
-				04DBFF7119C993CC00A6CEF0 /* TWWebService.m */,
 				04DBFF7319C99FDC00A6CEF0 /* TWTableViewCell.h */,
 				04DBFF7419C99FDC00A6CEF0 /* TWTableViewCell.m */,
 				0413484D19CA7B7400E69142 /* UIImageView+Async.h */,

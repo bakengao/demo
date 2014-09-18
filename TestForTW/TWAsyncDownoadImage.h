@@ -9,8 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface TWAsyncDownoadImage : NSObject
-typedef void(^ImageDownloadedBlock)(UIImage *image, NSError *error, NSURL *imageURL);
 
+typedef void(^ImageDownloadedBlock)(UIImage *image, NSError *error, NSURL *imageURL);
+//@property (nonatomic,copy)void(^ImageDownloadedBlock)(UIImage *image, NSError *error, NSURL *imageURL);
 - (void)downloadImageWithURL:(NSURL *)url complete:(ImageDownloadedBlock)completeBlock;
 
 @end
