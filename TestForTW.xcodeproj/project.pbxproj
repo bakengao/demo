@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0413484F19CA7B7400E69142 /* UIImageView+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413484E19CA7B7400E69142 /* UIImageView+Async.m */; };
+		0413485B19CAA61100E69142 /* TWAsyncDownoadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413485A19CAA61100E69142 /* TWAsyncDownoadImage.m */; };
+		0413485E19CAADBF00E69142 /* TWCacheFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413485D19CAADBF00E69142 /* TWCacheFiles.m */; };
 		04DBFF1F19C9826100A6CEF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DBFF1E19C9826100A6CEF0 /* Foundation.framework */; };
 		04DBFF2119C9826100A6CEF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DBFF2019C9826100A6CEF0 /* CoreGraphics.framework */; };
 		04DBFF2319C9826100A6CEF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DBFF2219C9826100A6CEF0 /* UIKit.framework */; };
 		04DBFF2519C9826100A6CEF0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DBFF2419C9826100A6CEF0 /* CoreData.framework */; };
 		04DBFF2B19C9826100A6CEF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04DBFF2919C9826100A6CEF0 /* InfoPlist.strings */; };
 		04DBFF2D19C9826100A6CEF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFF2C19C9826100A6CEF0 /* main.m */; };
-		04DBFF3119C9826100A6CEF0 /* MAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFF3019C9826100A6CEF0 /* MAAppDelegate.m */; };
+		04DBFF3119C9826100A6CEF0 /* TWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFF3019C9826100A6CEF0 /* TWAppDelegate.m */; };
 		04DBFF3419C9826100A6CEF0 /* TestForTW.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFF3219C9826100A6CEF0 /* TestForTW.xcdatamodeld */; };
 		04DBFF3619C9826100A6CEF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DBFF3519C9826100A6CEF0 /* Images.xcassets */; };
 		04DBFF3D19C9826100A6CEF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DBFF3C19C9826100A6CEF0 /* XCTest.framework */; };
@@ -22,6 +25,15 @@
 		04DBFF4019C9826100A6CEF0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DBFF2419C9826100A6CEF0 /* CoreData.framework */; };
 		04DBFF4819C9826100A6CEF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04DBFF4619C9826100A6CEF0 /* InfoPlist.strings */; };
 		04DBFF4A19C9826100A6CEF0 /* TestForTWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFF4919C9826100A6CEF0 /* TestForTWTests.m */; };
+		04DBFF5D19C9846900A6CEF0 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFF5719C9846900A6CEF0 /* CJSONDeserializer.m */; };
+		04DBFF5E19C9846900A6CEF0 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFF5919C9846900A6CEF0 /* CJSONSerializer.m */; };
+		04DBFF5F19C9846900A6CEF0 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFF5C19C9846900A6CEF0 /* NSDictionary_JSONExtensions.m */; };
+		04DBFF6519C984ED00A6CEF0 /* TWFirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFF6419C984ED00A6CEF0 /* TWFirstTableViewController.m */; };
+		04DBFF6F19C9881600A6CEF0 /* factModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFF6E19C9881600A6CEF0 /* factModel.m */; };
+		04DBFF7219C993CC00A6CEF0 /* TWWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFF7119C993CC00A6CEF0 /* TWWebService.m */; };
+		04DBFF7519C99FDC00A6CEF0 /* TWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFF7419C99FDC00A6CEF0 /* TWTableViewCell.m */; };
+		04DBFF7819C9A47500A6CEF0 /* TWCellFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFF7719C9A47500A6CEF0 /* TWCellFrame.m */; };
+		04DBFF7B19C9BD1D00A6CEF0 /* TopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFF7A19C9BD1D00A6CEF0 /* TopModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0413484D19CA7B7400E69142 /* UIImageView+Async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Async.h"; sourceTree = "<group>"; };
+		0413484E19CA7B7400E69142 /* UIImageView+Async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Async.m"; sourceTree = "<group>"; };
+		0413485919CAA61100E69142 /* TWAsyncDownoadImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAsyncDownoadImage.h; sourceTree = "<group>"; };
+		0413485A19CAA61100E69142 /* TWAsyncDownoadImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAsyncDownoadImage.m; sourceTree = "<group>"; };
+		0413485C19CAADBF00E69142 /* TWCacheFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCacheFiles.h; sourceTree = "<group>"; };
+		0413485D19CAADBF00E69142 /* TWCacheFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCacheFiles.m; sourceTree = "<group>"; };
 		04DBFF1B19C9826100A6CEF0 /* TestForTW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForTW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DBFF1E19C9826100A6CEF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04DBFF2019C9826100A6CEF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,8 +62,8 @@
 		04DBFF2A19C9826100A6CEF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04DBFF2C19C9826100A6CEF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04DBFF2E19C9826100A6CEF0 /* TestForTW-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestForTW-Prefix.pch"; sourceTree = "<group>"; };
-		04DBFF2F19C9826100A6CEF0 /* MAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAppDelegate.h; sourceTree = "<group>"; };
-		04DBFF3019C9826100A6CEF0 /* MAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAppDelegate.m; sourceTree = "<group>"; };
+		04DBFF2F19C9826100A6CEF0 /* TWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWAppDelegate.h; sourceTree = "<group>"; };
+		04DBFF3019C9826100A6CEF0 /* TWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWAppDelegate.m; sourceTree = "<group>"; };
 		04DBFF3319C9826100A6CEF0 /* TestForTW.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestForTW.xcdatamodel; sourceTree = "<group>"; };
 		04DBFF3519C9826100A6CEF0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04DBFF3B19C9826100A6CEF0 /* TestForTWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForTWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +71,25 @@
 		04DBFF4519C9826100A6CEF0 /* TestForTWTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestForTWTests-Info.plist"; sourceTree = "<group>"; };
 		04DBFF4719C9826100A6CEF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04DBFF4919C9826100A6CEF0 /* TestForTWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForTWTests.m; sourceTree = "<group>"; };
+		04DBFF5619C9846900A6CEF0 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		04DBFF5719C9846900A6CEF0 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		04DBFF5819C9846900A6CEF0 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		04DBFF5919C9846900A6CEF0 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		04DBFF5A19C9846900A6CEF0 /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
+		04DBFF5B19C9846900A6CEF0 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		04DBFF5C19C9846900A6CEF0 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		04DBFF6319C984ED00A6CEF0 /* TWFirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWFirstTableViewController.h; sourceTree = "<group>"; };
+		04DBFF6419C984ED00A6CEF0 /* TWFirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWFirstTableViewController.m; sourceTree = "<group>"; };
+		04DBFF6D19C9881600A6CEF0 /* factModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = factModel.h; sourceTree = "<group>"; };
+		04DBFF6E19C9881600A6CEF0 /* factModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = factModel.m; sourceTree = "<group>"; };
+		04DBFF7019C993CC00A6CEF0 /* TWWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWWebService.h; sourceTree = "<group>"; };
+		04DBFF7119C993CC00A6CEF0 /* TWWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWWebService.m; sourceTree = "<group>"; };
+		04DBFF7319C99FDC00A6CEF0 /* TWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTableViewCell.h; sourceTree = "<group>"; };
+		04DBFF7419C99FDC00A6CEF0 /* TWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTableViewCell.m; sourceTree = "<group>"; };
+		04DBFF7619C9A47500A6CEF0 /* TWCellFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCellFrame.h; sourceTree = "<group>"; };
+		04DBFF7719C9A47500A6CEF0 /* TWCellFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCellFrame.m; sourceTree = "<group>"; };
+		04DBFF7919C9BD1D00A6CEF0 /* TopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopModel.h; sourceTree = "<group>"; };
+		04DBFF7A19C9BD1D00A6CEF0 /* TopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +121,8 @@
 		04DBFF1219C9826100A6CEF0 = {
 			isa = PBXGroup;
 			children = (
+				04DBFF6619C9878D00A6CEF0 /* Model */,
+				04DBFF5419C9846900A6CEF0 /* Lib */,
 				04DBFF2619C9826100A6CEF0 /* TestForTW */,
 				04DBFF4319C9826100A6CEF0 /* TestForTWTests */,
 				04DBFF1D19C9826100A6CEF0 /* Frameworks */,
@@ -115,10 +154,22 @@
 		04DBFF2619C9826100A6CEF0 /* TestForTW */ = {
 			isa = PBXGroup;
 			children = (
-				04DBFF2F19C9826100A6CEF0 /* MAAppDelegate.h */,
-				04DBFF3019C9826100A6CEF0 /* MAAppDelegate.m */,
+				04DBFF2F19C9826100A6CEF0 /* TWAppDelegate.h */,
+				04DBFF3019C9826100A6CEF0 /* TWAppDelegate.m */,
 				04DBFF3519C9826100A6CEF0 /* Images.xcassets */,
 				04DBFF3219C9826100A6CEF0 /* TestForTW.xcdatamodeld */,
+				04DBFF6319C984ED00A6CEF0 /* TWFirstTableViewController.h */,
+				04DBFF6419C984ED00A6CEF0 /* TWFirstTableViewController.m */,
+				04DBFF7019C993CC00A6CEF0 /* TWWebService.h */,
+				04DBFF7119C993CC00A6CEF0 /* TWWebService.m */,
+				04DBFF7319C99FDC00A6CEF0 /* TWTableViewCell.h */,
+				04DBFF7419C99FDC00A6CEF0 /* TWTableViewCell.m */,
+				0413484D19CA7B7400E69142 /* UIImageView+Async.h */,
+				0413484E19CA7B7400E69142 /* UIImageView+Async.m */,
+				0413485919CAA61100E69142 /* TWAsyncDownoadImage.h */,
+				0413485A19CAA61100E69142 /* TWAsyncDownoadImage.m */,
+				0413485C19CAADBF00E69142 /* TWCacheFiles.h */,
+				0413485D19CAADBF00E69142 /* TWCacheFiles.m */,
 				04DBFF2719C9826100A6CEF0 /* Supporting Files */,
 			);
 			path = TestForTW;
@@ -151,6 +202,41 @@
 				04DBFF4619C9826100A6CEF0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04DBFF5419C9846900A6CEF0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				04DBFF5519C9846900A6CEF0 /* Source */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		04DBFF5519C9846900A6CEF0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				04DBFF5619C9846900A6CEF0 /* CJSONDeserializer.h */,
+				04DBFF5719C9846900A6CEF0 /* CJSONDeserializer.m */,
+				04DBFF5819C9846900A6CEF0 /* CJSONSerializer.h */,
+				04DBFF5919C9846900A6CEF0 /* CJSONSerializer.m */,
+				04DBFF5A19C9846900A6CEF0 /* JSONRepresentation.h */,
+				04DBFF5B19C9846900A6CEF0 /* NSDictionary_JSONExtensions.h */,
+				04DBFF5C19C9846900A6CEF0 /* NSDictionary_JSONExtensions.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		04DBFF6619C9878D00A6CEF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04DBFF7919C9BD1D00A6CEF0 /* TopModel.h */,
+				04DBFF7A19C9BD1D00A6CEF0 /* TopModel.m */,
+				04DBFF6D19C9881600A6CEF0 /* factModel.h */,
+				04DBFF6E19C9881600A6CEF0 /* factModel.m */,
+				04DBFF7619C9A47500A6CEF0 /* TWCellFrame.h */,
+				04DBFF7719C9A47500A6CEF0 /* TWCellFrame.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +336,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				04DBFF3419C9826100A6CEF0 /* TestForTW.xcdatamodeld in Sources */,
-				04DBFF3119C9826100A6CEF0 /* MAAppDelegate.m in Sources */,
+				04DBFF7B19C9BD1D00A6CEF0 /* TopModel.m in Sources */,
+				04DBFF7519C99FDC00A6CEF0 /* TWTableViewCell.m in Sources */,
+				04DBFF7819C9A47500A6CEF0 /* TWCellFrame.m in Sources */,
+				04DBFF3119C9826100A6CEF0 /* TWAppDelegate.m in Sources */,
+				0413484F19CA7B7400E69142 /* UIImageView+Async.m in Sources */,
+				04DBFF5E19C9846900A6CEF0 /* CJSONSerializer.m in Sources */,
+				0413485B19CAA61100E69142 /* TWAsyncDownoadImage.m in Sources */,
+				04DBFF7219C993CC00A6CEF0 /* TWWebService.m in Sources */,
+				04DBFF5D19C9846900A6CEF0 /* CJSONDeserializer.m in Sources */,
+				0413485E19CAADBF00E69142 /* TWCacheFiles.m in Sources */,
+				04DBFF5F19C9846900A6CEF0 /* NSDictionary_JSONExtensions.m in Sources */,
 				04DBFF2D19C9826100A6CEF0 /* main.m in Sources */,
+				04DBFF6519C984ED00A6CEF0 /* TWFirstTableViewController.m in Sources */,
+				04DBFF6F19C9881600A6CEF0 /* factModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +469,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestForTW/TestForTW-Prefix.pch";
 				INFOPLIST_FILE = "TestForTW/TestForTW-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -384,7 +484,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestForTW/TestForTW-Prefix.pch";
 				INFOPLIST_FILE = "TestForTW/TestForTW-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -448,6 +550,7 @@
 				04DBFF4F19C9826100A6CEF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04DBFF5019C9826100A6CEF0 /* Build configuration list for PBXNativeTarget "TestForTWTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +559,7 @@
 				04DBFF5219C9826100A6CEF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
